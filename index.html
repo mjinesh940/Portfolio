@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+   <div class="container">
+    <!-- HEADER -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name"><a href="#" style="text-decoration: none; color: rgb(30, 159, 171);">Jinesh's Portfolio</a></p>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link" onclick = "changeActive('home')">Home</a>
+                    <div class="circle"></div>
+                </li>
+
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link" onclick="changeActive('projects')">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link" onclick="changeActive('about')">About Me</a>
+                    <div class="circle"></div>
+                </li>
+
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link"onclick="changeActive('contact')">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <button class="btn" > <a href="https://drive.google.com/file/d/1AJ3REY6cQx2gABTn7oP7dZL_yJYjPTrl/view?usp=sharing" style="text-decoration: none;">View Resume</a></button>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- MAIN -->
+    <main class="wrapper">
+       <!-- FEATURED BOx -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Jinesh Modi</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm a <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>Passionate tech enthusiast with a strong desire to excel as a Full Stack Web developer. Dedicated to continuous learning and eager to
+                contribute innovative solutions to drive impactful projects. </p>
+            </div>
+            <div class="featured-text-btn">
+                <button class="btn blue-btn">
+                    <a href="https://github.com/mjinesh940" target="_blank">GitHub</a>
+                </button>
+                <button class="btn"><a href="https://drive.google.com/file/d/1AJ3REY6cQx2gABTn7oP7dZL_yJYjPTrl/view?usp=sharing" style="text-decoration: none;">View Resume</a></button>
+            </div>
+            <div class="social_icons">
+
+                <a href="https://www.linkedin.com/in/jinesh-modi-3a74b523a/" target="_blank" class="icon_links">
+                    <div class="icon"><i class="fa fa-linkedin"></i></div></a>
+                <a href="https://github.com/mjinesh940" target="_blank" class="icon_links">
+                    <div class="icon"><i class="fa fa-github"></i></div></a>
+                <a href="https://twitter.com/JineshModi3?s=09" target="_blank" class="icon_links">
+                    <div class="icon"><i class="fa fa-twitter"></i></div></a>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="avatar.jpg" alt="avatar">
+            </div>
+          </div>
+
+       </section>
+       
+
+
+       <!-- PROJECT BOX  -->
+
+       <section class="section" id="projects">
+          <div class="top-header">
+              <h1>Projects</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+                <a href="https://github.com/mjinesh940/Myntra_clone" target="_blank">
+                <img src="myntra.png" alt="Myntra Clone"></a>
+                <h3>Myntra Clone</h3>
+            </div>
+            <div class="project-box">
+                <a href="https://github.com/mjinesh940/Scholarship-Portal" target="_blank">
+                <img src="Scholarship.png" alt=""></a>
+                <h3>Scholarship Portal</h3>
+            </div>
+            <div class="project-box">
+                <a href="https://github.com/mjinesh940/Basic_Banking_System" target="_blank">
+                <img src="ProjectBBS.png" alt=""></a>
+                <h3>Basic Bamking System</h3>
+            </div>
+            <div class="project-box">
+                <a href="https://www.figma.com/file/BDEZ50SO1rwwBgfrEJbgBZ/Ticket-booking?type=design&node-id=0%3A1&mode=design&t=SHEQWrzwvJLPML4h-1" target="_blank">
+                <img src="ProjectTB.png" alt=""></a>
+                <h3>Movie Ticket boooking UI</h3>
+            </div>
+            <div class="project-box">
+                <a href="https://github.com/mjinesh940/object_detection" target="_blank">
+                <img src="ProjectOD.png" alt=""></a>
+                <h3>Object detection System</h3>
+            </div>
+            <div class="project-box">
+                <a href="https://github.com/mjinesh940/Text_Analysis" target="_blank">
+                <img src="ProjectTA.png" alt=""></a>
+                <h3>Text Anallysis</h3>
+            </div>
+          </div>
+       </section>
+
+
+
+
+<!-- ABOUT BOX -->
+<section class="section" id="about">
+    <div class="top-header">
+      <h1>About Me</h1>
+    </div>
+    <div class="row">
+      <div class="col">
+          <div class="about-info">
+              <h3>My introduction</h3>
+              <p> I am currently a fourth-year Information Technology student, deeply immersed in the ever-evolving world of technology. 
+                I'm eagerly seeking exciting opportunities that not only allow me to apply my knowledge but also foster continuous growth on my journey as a dedicated tech enthusiast.
+              </p>
+          </div>
+      </div>
+      <div class="col">
+          <div class="skills-box">
+              <h3>Technical Skills</h3>
+              <div class="skills-list">
+                  <span>Java</span>
+                  <span>Python</span>
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>React</span>
+                  <span>Bootstrap</span>
+                  <span>MySQL</span>
+                  <span>PHP</span>
+                  <span>Data Analysis</span>
+                  <span>Data visualization</span>
+                  <span>Data Interpretation</span>
+            <div class="skills-box">
+                <h3>Soft Skills</h3>
+                <div class="skills-list">
+                  <span>Leadership</span>
+                  <span>Communication</span>
+                  <span>Collaborative</span>
+                  <span>Team player</span>
+                  <span>Quick learner</span>
+
+              </div>
+          </div>
+      </div>
+    </div>
+    
+ </section>
+
+
+
+
+       <!--  CONTACT BOX -->
+
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Contact</h1>
+
+          </div>
+          <div class="row">
+             <div class="col">
+                <div class="contact-info">
+                    <h2>Contact Me <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="name"></i> Name: Jinesh Jitendra Modi</p>
+                    <p><i class="email"></i> Email: mjinesh940@gmail.com</p>
+                    <p><i class="Contact No."></i> Contact No.: +91-9404476682</p>
+                </div>
+             </div>
+          </div>
+       </section>
+
+
+
+
+
+    </main>
+
+
+
+    <!-- FOOTER  -->
+    <footer>
+         <div class="top-footer">
+            <p>Get In Touch</p>
+        </div>
+        <div class="footer-social-icons">
+            <a href="https://www.linkedin.com/in/jinesh-modi-3a74b523a/" target="_blank" class="icon_links">
+            <div class="icon"><i class="fa fa-linkedin"></i></div></a>
+            <a href="https://github.com/mjinesh940" target="_blank" class="icon_links">
+            <div class="icon"><i class="fa fa-github"></i></div></a>
+            <a href="https://twitter.com/JineshModi3?s=09" target="_blank" class="icon_links">
+            <div class="icon"><i class="fa fa-twitter"></i></div></a>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Jinesh Modi</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- TYPING JS Link -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ScrollReveal JS Link -->
+    <script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
+
+       <!--- SCROLL REVEAL JS Link - -->
+     <script src="https://unpkg.com/scrollreveal"></script> 
+    <!-- MAIN JS  -->
+    <script src="script.js"></script>
+</body>
+</html>
